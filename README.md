@@ -1,48 +1,46 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> Lending Club Case Study projects aims in identifying strong indicators of loan default which can be used for Risk Management
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
+* [Problem statement and Goal](#general-information)
+* [Overview of Data Analysis Approach](#technologies-used)
+* [Summary of Analysis](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Online Lending company wants to access the "Risky" Applicants before lending loans
+- Goal is to identify strong indicators of loan default which can be used for Risk Management using Data analysis 
+- Basically identify driving factors behind loan default
+- Dataset used : "loan.csv"
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Debt Consolidation and Credit payment are the main reasons for loan default
+- Applicants in Rented and Mortgage homes have Higher risk of loan default
+- High probability of loan defaults with High DTI range b/w 1-25 .
+- Applicants with >10+ years and <1 years have high probibility of loan defaul
+- Recommend higher loan repayment Terms may be >= 60 months
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Anaconda3 jupyter Notebook
+- python 3.9
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Thanks to Upgrad Instructors and Live Sessions
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@skmdesai] - feel free to contact me!
 
 
 <!-- Optional -->
